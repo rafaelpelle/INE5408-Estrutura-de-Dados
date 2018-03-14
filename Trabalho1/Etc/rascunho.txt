@@ -1,0 +1,38 @@
+class Relogio : public Lista<Evento> {
+
+
+};
+
+
+
+class Pista : public Fila<Veiculo> {
+  private:
+	int vel;
+	int tam;
+	bool fonte;
+	bool sumidouro;
+	bool cheia;
+	int freq;
+	int variacao;
+};
+
+class Veiculo {
+  private:
+	int tamanho;
+
+Carro gera um número aleatório entre 0 e 9 para selecionar seu destino.
+Pista tem Pista[10] com as probabilidades de destino.
+};
+
+
+class Evento {
+	Se criar evento verifica se vai acontecer no tempo da simulação. se não, não cria o evento.
+	quando acabarem os eventos acabou a simulação.
+
+	Classe evento é abstrata com 4 subclasses:
+		chegada de um novo carro
+		mudança de estado do semaforo
+		chegada de carro ao semaforo
+		troca de pista
+
+};
